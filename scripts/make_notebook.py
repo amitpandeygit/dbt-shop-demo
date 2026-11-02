@@ -62,19 +62,21 @@ md("**A downstream model with `ref()`** - `ref('stg_order_items')` points to ano
 code("""!cat models/intermediate/int_order_items_summed.sql""")
 code("""
 # Everything fct_orders depends on (the + in front means "and its parents")
-!dbt ls -s +fct_orders
+!dbt ls -s +fct_orders --resource-type model --resource-type source
 """)
 code("""
 # Build everything. dbt works out the order from the DAG: seeds and staging first, marts last.
 !dbt seed
 !dbt run
 """)
-md("**The lineage graph.** Generate the documentation site and open it. Click the round button at the bottom right to see the DAG.")
+md("**The lineage graph.** Generate the documentation site and show it below. Click the round button at the bottom right to see the DAG. To open it in its own browser tab, run `output.serve_kernel_port_as_window(8001)` and click the link.")
 code("""
+# Port 8080 is used by Colab itself, so the docs site uses port 8001
 !dbt docs generate -q
-!nohup dbt docs serve --port 8080 --no-browser > docs.log 2>&1 &
+!nohup dbt docs serve --port 8001 --no-browser > docs.log 2>&1 &
+import time; time.sleep(5)
 from google.colab import output
-output.serve_kernel_port_as_window(8080)
+output.serve_kernel_port_as_iframe(8001, height=650)
 """)
 md("## Section 3 - transformations, dependencies and materialisations")
 code("""!cat models/marts/fct_orders.sql""")
@@ -142,7 +144,7 @@ md("## Section 4 - tests, documentation and advanced dbt")
 code("""!cat models/staging/_staging.yml""")
 code("""!dbt test""")
 md("One test failed. Look at what is in the status column now:")
-code("""!dbt show --inline "select status, count(*) as orders from {{ ref('stg_orders') }} group by 1 order by 2 desc" """)
+code("""!dbt show --inline "select status, count(*) as orders from {{ ref('stg_orders') }} group by 1 order by 2 desc" --limit 10 """)
 md("A new status, `refunded`, came in with batch 2. `dbt build` runs models and tests together, in DAG order, and skips everything downstream of a failed test, so bad data does not reach the reports:")
 code("""!dbt build""")
 md("**The fix:** tell the test that `refunded` is allowed, and count refunded orders as zero revenue.")
@@ -150,8 +152,8 @@ code("""
 !sed -i "s/'cancelled', 'returned'\\]/'cancelled', 'returned', 'refunded']/" models/staging/_staging.yml
 !sed -i "s/when o.status in ('cancelled', 'returned') then 0/when o.status in ('cancelled', 'returned', 'refunded') then 0/" models/marts/fct_orders.sql
 !grep -n "refunded" models/staging/_staging.yml models/marts/fct_orders.sql
-!dbt build
 """)
+code("""!dbt build""")
 md("**A singular test** is just a query that should return no rows:")
 code("""!cat tests/assert_paid_equals_items.sql""")
 md("**Documentation.** Descriptions live in the YAML files next to the models. `docs.md` holds longer text blocks.")
@@ -161,7 +163,7 @@ code("""
 """)
 code("""
 !dbt docs generate -q
-output.serve_kernel_port_as_window(8080)
+output.serve_kernel_port_as_iframe(8001, height=650)
 """)
 md("**Jinja** - `{% ... %}` runs logic, `{{ ... }}` prints a value. This for-loop writes four columns:")
 code("""!cat models/intermediate/int_order_payments_pivoted.sql""")
