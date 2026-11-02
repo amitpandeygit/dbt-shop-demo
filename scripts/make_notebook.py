@@ -22,6 +22,9 @@ The warehouse: DuckDB, a small database that lives in one file (`shop.duckdb`). 
 md("## Setup (about 1 minute)")
 code("""
 # Get the project, install dbt, and load the raw data (the "E" and "L" of ELT)
+# Running this cell again starts the whole demo from a clean copy.
+%cd /content
+!rm -rf dbt-shop-demo
 !git clone -q https://github.com/amitpandeygit/dbt-shop-demo.git
 %cd /content/dbt-shop-demo
 !pip install -q -r requirements.txt
