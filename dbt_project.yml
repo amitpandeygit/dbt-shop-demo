@@ -1,0 +1,27 @@
+# The main settings file of the dbt project.
+name: shop
+version: "1.0.0"
+profile: shop            # which connection to use (see profiles.yml)
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]
+clean-targets: ["target", "dbt_packages", "logs"]
+
+# Default materialisation for each folder. A model can override it with config().
+models:
+  shop:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: ephemeral
+    marts:
+      +materialized: table
+      +schema: marts
+
+seeds:
+  shop:
+    +schema: reference

@@ -1,0 +1,10 @@
+# A snapshot keeps history. When a customer row changes (say, a new city),
+# dbt keeps the old row, closes it with dbt_valid_to, and adds the new row.
+snapshots:
+  - name: snap_customers
+    relation: source('shop', 'customers')
+    config:
+      schema: snapshots
+      unique_key: customer_id
+      strategy: timestamp
+      updated_at: updated_at

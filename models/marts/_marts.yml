@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: One row per order, with its items and payments. Built incrementally.
+    columns:
+      - name: order_id
+        description: The key of this table.
+        data_tests: [unique, not_null]
+      - name: customer_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_customers')
+                field: customer_id
+      - name: status
+        description: "{{ doc('order_status') }}"
+      - name: items_amount
+        description: Total value of the products in the order, in rupees.
+      - name: total_paid
+        description: Total of all payments for the order, in rupees.
+      - name: net_revenue
+        description: items_amount, but 0 when the order was cancelled or returned.
+
+  - name: dim_customers
+    description: One row per customer, with region and lifetime order totals.
+    columns:
+      - name: customer_id
+        description: The key of this table.
+        data_tests: [unique, not_null]
+      - name: region
+        description: North, South, East or West, from the city_region seed.
+        data_tests:
+          - not_null
+      - name: lifetime_value
+        description: Sum of net_revenue over all the customer's orders, in rupees.
+
+  - name: rpt_monthly_sales_by_region
+    description: Orders, revenue and average order value per month and region. Leaves out orders with net_revenue 0 (cancelled or returned).

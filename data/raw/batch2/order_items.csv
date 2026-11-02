@@ -1,0 +1,296 @@
+order_item_id,order_id,product_id,product_name,category,quantity,unit_price_paise
+30010,3001,3,Basmati Rice 5kg,Staples,2,69900
+30011,3002,2,Filter Coffee 500g,Beverages,2,42000
+30012,3002,8,Dark Chocolate 100g,Snacks,1,15000
+30013,3002,10,Cotton Towel,Home,1,39900
+30014,3003,7,Ragi Cookies 200g,Snacks,1,9500
+30015,3003,9,Steel Bottle 1L,Home,2,54900
+30016,3003,4,Toor Dal 1kg,Staples,1,16500
+30017,3004,3,Basmati Rice 5kg,Staples,1,69900
+30018,3005,3,Basmati Rice 5kg,Staples,2,69900
+30019,3005,7,Ragi Cookies 200g,Snacks,2,9500
+30020,3006,8,Dark Chocolate 100g,Snacks,2,15000
+30021,3007,8,Dark Chocolate 100g,Snacks,1,15000
+30022,3008,8,Dark Chocolate 100g,Snacks,2,15000
+30023,3008,3,Basmati Rice 5kg,Staples,2,69900
+30024,3009,7,Ragi Cookies 200g,Snacks,3,9500
+30025,3009,4,Toor Dal 1kg,Staples,1,16500
+30026,3010,3,Basmati Rice 5kg,Staples,2,69900
+30027,3011,4,Toor Dal 1kg,Staples,3,16500
+30028,3011,3,Basmati Rice 5kg,Staples,1,69900
+30029,3011,8,Dark Chocolate 100g,Snacks,2,15000
+30030,3012,1,Masala Chai 250g,Beverages,3,18000
+30031,3012,5,Cold Pressed Oil 1L,Staples,2,32000
+30032,3013,3,Basmati Rice 5kg,Staples,3,69900
+30033,3013,9,Steel Bottle 1L,Home,2,54900
+30034,3014,8,Dark Chocolate 100g,Snacks,3,15000
+30035,3015,7,Ragi Cookies 200g,Snacks,1,9500
+30036,3015,1,Masala Chai 250g,Beverages,1,18000
+30037,3016,6,Mixed Namkeen 400g,Snacks,2,12000
+30038,3017,10,Cotton Towel,Home,1,39900
+30039,3018,6,Mixed Namkeen 400g,Snacks,1,12000
+30040,3019,6,Mixed Namkeen 400g,Snacks,2,12000
+30041,3020,5,Cold Pressed Oil 1L,Staples,1,32000
+30042,3020,4,Toor Dal 1kg,Staples,1,16500
+30043,3020,9,Steel Bottle 1L,Home,1,54900
+30044,3021,6,Mixed Namkeen 400g,Snacks,3,12000
+30045,3022,5,Cold Pressed Oil 1L,Staples,1,32000
+30046,3022,2,Filter Coffee 500g,Beverages,3,42000
+30047,3023,2,Filter Coffee 500g,Beverages,1,42000
+30048,3024,3,Basmati Rice 5kg,Staples,1,69900
+30049,3024,2,Filter Coffee 500g,Beverages,2,42000
+30050,3025,10,Cotton Towel,Home,3,39900
+30051,3025,2,Filter Coffee 500g,Beverages,1,42000
+30052,3026,7,Ragi Cookies 200g,Snacks,2,9500
+30053,3027,1,Masala Chai 250g,Beverages,3,18000
+30054,3028,9,Steel Bottle 1L,Home,1,54900
+30055,3028,5,Cold Pressed Oil 1L,Staples,2,32000
+30056,3028,6,Mixed Namkeen 400g,Snacks,1,12000
+30057,3029,6,Mixed Namkeen 400g,Snacks,1,12000
+30058,3030,1,Masala Chai 250g,Beverages,2,18000
+30059,3030,9,Steel Bottle 1L,Home,3,54900
+30060,3030,8,Dark Chocolate 100g,Snacks,2,15000
+30061,3031,5,Cold Pressed Oil 1L,Staples,1,32000
+30062,3031,3,Basmati Rice 5kg,Staples,3,69900
+30063,3031,9,Steel Bottle 1L,Home,3,54900
+30064,3032,1,Masala Chai 250g,Beverages,2,18000
+30065,3032,5,Cold Pressed Oil 1L,Staples,1,32000
+30066,3032,8,Dark Chocolate 100g,Snacks,2,15000
+30067,3033,10,Cotton Towel,Home,2,39900
+30068,3033,9,Steel Bottle 1L,Home,1,54900
+30069,3033,7,Ragi Cookies 200g,Snacks,2,9500
+30070,3034,7,Ragi Cookies 200g,Snacks,1,9500
+30071,3034,5,Cold Pressed Oil 1L,Staples,3,32000
+30072,3035,3,Basmati Rice 5kg,Staples,3,69900
+30073,3035,6,Mixed Namkeen 400g,Snacks,2,12000
+30074,3035,7,Ragi Cookies 200g,Snacks,1,9500
+30075,3036,6,Mixed Namkeen 400g,Snacks,2,12000
+30076,3037,9,Steel Bottle 1L,Home,1,54900
+30077,3038,7,Ragi Cookies 200g,Snacks,2,9500
+30078,3038,3,Basmati Rice 5kg,Staples,1,69900
+30079,3038,5,Cold Pressed Oil 1L,Staples,3,32000
+30080,3039,3,Basmati Rice 5kg,Staples,1,69900
+30081,3040,10,Cotton Towel,Home,3,39900
+30082,3041,1,Masala Chai 250g,Beverages,2,18000
+30083,3041,5,Cold Pressed Oil 1L,Staples,1,32000
+30084,3042,1,Masala Chai 250g,Beverages,3,18000
+30085,3042,10,Cotton Towel,Home,1,39900
+30086,3043,4,Toor Dal 1kg,Staples,3,16500
+30087,3043,9,Steel Bottle 1L,Home,1,54900
+30088,3044,1,Masala Chai 250g,Beverages,2,18000
+30089,3045,5,Cold Pressed Oil 1L,Staples,1,32000
+30090,3045,7,Ragi Cookies 200g,Snacks,3,9500
+30091,3046,9,Steel Bottle 1L,Home,3,54900
+30092,3047,5,Cold Pressed Oil 1L,Staples,2,32000
+30093,3048,7,Ragi Cookies 200g,Snacks,1,9500
+30094,3049,4,Toor Dal 1kg,Staples,3,16500
+30095,3050,7,Ragi Cookies 200g,Snacks,2,9500
+30096,3050,9,Steel Bottle 1L,Home,2,54900
+30097,3051,3,Basmati Rice 5kg,Staples,2,69900
+30098,3051,1,Masala Chai 250g,Beverages,2,18000
+30099,3052,2,Filter Coffee 500g,Beverages,2,42000
+30100,3053,5,Cold Pressed Oil 1L,Staples,3,32000
+30101,3054,7,Ragi Cookies 200g,Snacks,1,9500
+30102,3054,6,Mixed Namkeen 400g,Snacks,3,12000
+30103,3055,6,Mixed Namkeen 400g,Snacks,2,12000
+30104,3056,9,Steel Bottle 1L,Home,2,54900
+30105,3056,1,Masala Chai 250g,Beverages,3,18000
+30106,3057,10,Cotton Towel,Home,2,39900
+30107,3058,5,Cold Pressed Oil 1L,Staples,2,32000
+30108,3058,4,Toor Dal 1kg,Staples,3,16500
+30109,3059,7,Ragi Cookies 200g,Snacks,2,9500
+30110,3059,1,Masala Chai 250g,Beverages,2,18000
+30111,3060,5,Cold Pressed Oil 1L,Staples,2,32000
+30112,3060,10,Cotton Towel,Home,1,39900
+30113,3060,4,Toor Dal 1kg,Staples,2,16500
+30114,3061,7,Ragi Cookies 200g,Snacks,2,9500
+30115,3061,5,Cold Pressed Oil 1L,Staples,2,32000
+30116,3062,6,Mixed Namkeen 400g,Snacks,3,12000
+30117,3063,3,Basmati Rice 5kg,Staples,2,69900
+30118,3064,5,Cold Pressed Oil 1L,Staples,3,32000
+30119,3064,6,Mixed Namkeen 400g,Snacks,2,12000
+30120,3064,1,Masala Chai 250g,Beverages,3,18000
+30121,3065,7,Ragi Cookies 200g,Snacks,2,9500
+30122,3065,1,Masala Chai 250g,Beverages,1,18000
+30123,3066,7,Ragi Cookies 200g,Snacks,2,9500
+30124,3067,9,Steel Bottle 1L,Home,1,54900
+30125,3068,10,Cotton Towel,Home,1,39900
+30126,3069,6,Mixed Namkeen 400g,Snacks,2,12000
+30127,3069,1,Masala Chai 250g,Beverages,1,18000
+30128,3069,7,Ragi Cookies 200g,Snacks,3,9500
+30129,3070,8,Dark Chocolate 100g,Snacks,3,15000
+30130,3070,7,Ragi Cookies 200g,Snacks,2,9500
+30131,3070,1,Masala Chai 250g,Beverages,3,18000
+30132,3071,1,Masala Chai 250g,Beverages,3,18000
+30133,3071,5,Cold Pressed Oil 1L,Staples,3,32000
+30134,3072,7,Ragi Cookies 200g,Snacks,1,9500
+30135,3072,4,Toor Dal 1kg,Staples,1,16500
+30136,3073,8,Dark Chocolate 100g,Snacks,1,15000
+30137,3074,2,Filter Coffee 500g,Beverages,2,42000
+30138,3074,9,Steel Bottle 1L,Home,1,54900
+30139,3074,3,Basmati Rice 5kg,Staples,3,69900
+30140,3075,9,Steel Bottle 1L,Home,2,54900
+30141,3076,1,Masala Chai 250g,Beverages,1,18000
+30142,3077,4,Toor Dal 1kg,Staples,3,16500
+30143,3077,6,Mixed Namkeen 400g,Snacks,3,12000
+30144,3077,5,Cold Pressed Oil 1L,Staples,3,32000
+30145,3078,8,Dark Chocolate 100g,Snacks,2,15000
+30146,3078,1,Masala Chai 250g,Beverages,3,18000
+30147,3079,10,Cotton Towel,Home,1,39900
+30148,3079,9,Steel Bottle 1L,Home,2,54900
+30149,3080,2,Filter Coffee 500g,Beverages,2,42000
+30150,3080,8,Dark Chocolate 100g,Snacks,2,15000
+30151,3080,10,Cotton Towel,Home,3,39900
+30152,3081,4,Toor Dal 1kg,Staples,3,16500
+30153,3081,2,Filter Coffee 500g,Beverages,3,42000
+30154,3081,6,Mixed Namkeen 400g,Snacks,3,12000
+30155,3082,3,Basmati Rice 5kg,Staples,2,69900
+30156,3082,9,Steel Bottle 1L,Home,1,54900
+30157,3082,2,Filter Coffee 500g,Beverages,1,42000
+30158,3083,7,Ragi Cookies 200g,Snacks,3,9500
+30159,3084,2,Filter Coffee 500g,Beverages,2,42000
+30160,3084,8,Dark Chocolate 100g,Snacks,1,15000
+30161,3084,3,Basmati Rice 5kg,Staples,3,69900
+30162,3085,9,Steel Bottle 1L,Home,1,54900
+30163,3085,6,Mixed Namkeen 400g,Snacks,3,12000
+30164,3086,10,Cotton Towel,Home,3,39900
+30165,3086,3,Basmati Rice 5kg,Staples,3,69900
+30166,3087,2,Filter Coffee 500g,Beverages,1,42000
+30167,3087,7,Ragi Cookies 200g,Snacks,2,9500
+30168,3087,10,Cotton Towel,Home,2,39900
+30169,3088,8,Dark Chocolate 100g,Snacks,1,15000
+30170,3089,5,Cold Pressed Oil 1L,Staples,1,32000
+30171,3089,10,Cotton Towel,Home,2,39900
+30172,3090,8,Dark Chocolate 100g,Snacks,1,15000
+30173,3090,1,Masala Chai 250g,Beverages,1,18000
+30174,3090,2,Filter Coffee 500g,Beverages,3,42000
+30175,3091,10,Cotton Towel,Home,3,39900
+30176,3091,1,Masala Chai 250g,Beverages,1,18000
+30177,3092,5,Cold Pressed Oil 1L,Staples,3,32000
+30178,3092,8,Dark Chocolate 100g,Snacks,1,15000
+30179,3092,7,Ragi Cookies 200g,Snacks,1,9500
+30180,3093,6,Mixed Namkeen 400g,Snacks,3,12000
+30181,3093,3,Basmati Rice 5kg,Staples,2,69900
+30182,3094,6,Mixed Namkeen 400g,Snacks,3,12000
+30183,3094,5,Cold Pressed Oil 1L,Staples,1,32000
+30184,3095,9,Steel Bottle 1L,Home,2,54900
+30185,3095,3,Basmati Rice 5kg,Staples,3,69900
+30186,3095,2,Filter Coffee 500g,Beverages,3,42000
+30187,3096,4,Toor Dal 1kg,Staples,1,16500
+30188,3097,7,Ragi Cookies 200g,Snacks,1,9500
+30189,3097,5,Cold Pressed Oil 1L,Staples,2,32000
+30190,3097,2,Filter Coffee 500g,Beverages,3,42000
+30191,3098,9,Steel Bottle 1L,Home,1,54900
+30192,3098,7,Ragi Cookies 200g,Snacks,2,9500
+30193,3098,3,Basmati Rice 5kg,Staples,3,69900
+30194,3099,10,Cotton Towel,Home,1,39900
+30195,3099,7,Ragi Cookies 200g,Snacks,2,9500
+30196,3099,3,Basmati Rice 5kg,Staples,2,69900
+30197,3100,4,Toor Dal 1kg,Staples,3,16500
+30198,3100,10,Cotton Towel,Home,3,39900
+30199,3100,6,Mixed Namkeen 400g,Snacks,2,12000
+30200,3101,3,Basmati Rice 5kg,Staples,1,69900
+30201,3101,6,Mixed Namkeen 400g,Snacks,2,12000
+30202,3101,7,Ragi Cookies 200g,Snacks,1,9500
+30203,3102,6,Mixed Namkeen 400g,Snacks,1,12000
+30204,3103,1,Masala Chai 250g,Beverages,1,18000
+30205,3103,10,Cotton Towel,Home,1,39900
+30206,3104,2,Filter Coffee 500g,Beverages,1,42000
+30207,3104,5,Cold Pressed Oil 1L,Staples,2,32000
+30208,3104,4,Toor Dal 1kg,Staples,3,16500
+30209,3105,8,Dark Chocolate 100g,Snacks,3,15000
+30210,3105,6,Mixed Namkeen 400g,Snacks,3,12000
+30211,3105,3,Basmati Rice 5kg,Staples,2,69900
+30212,3106,3,Basmati Rice 5kg,Staples,2,69900
+30213,3106,10,Cotton Towel,Home,1,39900
+30214,3107,1,Masala Chai 250g,Beverages,3,18000
+30215,3108,9,Steel Bottle 1L,Home,1,54900
+30216,3108,7,Ragi Cookies 200g,Snacks,3,9500
+30217,3109,9,Steel Bottle 1L,Home,1,54900
+30218,3109,3,Basmati Rice 5kg,Staples,1,69900
+30219,3110,7,Ragi Cookies 200g,Snacks,1,9500
+30220,3110,6,Mixed Namkeen 400g,Snacks,3,12000
+30221,3110,8,Dark Chocolate 100g,Snacks,3,15000
+30222,3111,8,Dark Chocolate 100g,Snacks,1,15000
+30223,3111,5,Cold Pressed Oil 1L,Staples,3,32000
+30224,3112,2,Filter Coffee 500g,Beverages,1,42000
+30225,3112,1,Masala Chai 250g,Beverages,2,18000
+30226,3113,7,Ragi Cookies 200g,Snacks,1,9500
+30227,3114,10,Cotton Towel,Home,3,39900
+30228,3114,2,Filter Coffee 500g,Beverages,2,42000
+30229,3114,4,Toor Dal 1kg,Staples,1,16500
+30230,3115,5,Cold Pressed Oil 1L,Staples,2,32000
+30231,3115,8,Dark Chocolate 100g,Snacks,3,15000
+30232,3116,9,Steel Bottle 1L,Home,1,54900
+30233,3116,7,Ragi Cookies 200g,Snacks,2,9500
+30234,3116,3,Basmati Rice 5kg,Staples,1,69900
+30235,3117,2,Filter Coffee 500g,Beverages,3,42000
+30236,3117,8,Dark Chocolate 100g,Snacks,3,15000
+30237,3117,1,Masala Chai 250g,Beverages,2,18000
+30238,3118,7,Ragi Cookies 200g,Snacks,2,9500
+30239,3118,4,Toor Dal 1kg,Staples,1,16500
+30240,3119,2,Filter Coffee 500g,Beverages,2,42000
+30241,3119,10,Cotton Towel,Home,2,39900
+30242,3119,6,Mixed Namkeen 400g,Snacks,2,12000
+30243,3120,1,Masala Chai 250g,Beverages,2,18000
+30244,3120,8,Dark Chocolate 100g,Snacks,1,15000
+30245,3121,2,Filter Coffee 500g,Beverages,2,42000
+30246,3121,9,Steel Bottle 1L,Home,1,54900
+30247,3122,1,Masala Chai 250g,Beverages,2,18000
+30248,3122,4,Toor Dal 1kg,Staples,1,16500
+30249,3122,7,Ragi Cookies 200g,Snacks,3,9500
+30250,3123,5,Cold Pressed Oil 1L,Staples,3,32000
+30251,3123,1,Masala Chai 250g,Beverages,2,18000
+30252,3124,5,Cold Pressed Oil 1L,Staples,3,32000
+30253,3124,7,Ragi Cookies 200g,Snacks,3,9500
+30254,3125,10,Cotton Towel,Home,2,39900
+30255,3126,8,Dark Chocolate 100g,Snacks,3,15000
+30256,3126,1,Masala Chai 250g,Beverages,3,18000
+30257,3127,2,Filter Coffee 500g,Beverages,1,42000
+30258,3127,10,Cotton Towel,Home,1,39900
+30259,3127,5,Cold Pressed Oil 1L,Staples,1,32000
+30260,3128,5,Cold Pressed Oil 1L,Staples,3,32000
+30261,3128,9,Steel Bottle 1L,Home,1,54900
+30262,3128,6,Mixed Namkeen 400g,Snacks,2,12000
+30263,3129,5,Cold Pressed Oil 1L,Staples,2,32000
+30264,3130,1,Masala Chai 250g,Beverages,2,18000
+30265,3130,8,Dark Chocolate 100g,Snacks,2,15000
+30266,3131,3,Basmati Rice 5kg,Staples,2,69900
+30267,3131,4,Toor Dal 1kg,Staples,1,16500
+30268,3131,2,Filter Coffee 500g,Beverages,2,42000
+30269,3132,7,Ragi Cookies 200g,Snacks,1,9500
+30270,3132,10,Cotton Towel,Home,2,39900
+30271,3133,7,Ragi Cookies 200g,Snacks,1,9500
+30272,3134,1,Masala Chai 250g,Beverages,2,18000
+30273,3134,4,Toor Dal 1kg,Staples,3,16500
+30274,3135,4,Toor Dal 1kg,Staples,1,16500
+30275,3135,7,Ragi Cookies 200g,Snacks,2,9500
+30276,3136,9,Steel Bottle 1L,Home,1,54900
+30277,3136,2,Filter Coffee 500g,Beverages,3,42000
+30278,3136,1,Masala Chai 250g,Beverages,1,18000
+30279,3137,3,Basmati Rice 5kg,Staples,3,69900
+30280,3137,1,Masala Chai 250g,Beverages,2,18000
+30281,3138,4,Toor Dal 1kg,Staples,3,16500
+30282,3138,2,Filter Coffee 500g,Beverages,3,42000
+30283,3139,3,Basmati Rice 5kg,Staples,2,69900
+30284,3140,10,Cotton Towel,Home,1,39900
+30285,3140,3,Basmati Rice 5kg,Staples,2,69900
+30286,3141,2,Filter Coffee 500g,Beverages,3,42000
+30287,3142,5,Cold Pressed Oil 1L,Staples,2,32000
+30288,3143,6,Mixed Namkeen 400g,Snacks,2,12000
+30289,3143,3,Basmati Rice 5kg,Staples,3,69900
+30290,3143,2,Filter Coffee 500g,Beverages,2,42000
+30291,3144,3,Basmati Rice 5kg,Staples,3,69900
+30292,3144,5,Cold Pressed Oil 1L,Staples,2,32000
+30293,3145,1,Masala Chai 250g,Beverages,1,18000
+30294,3145,3,Basmati Rice 5kg,Staples,2,69900
+30295,3146,1,Masala Chai 250g,Beverages,1,18000
+30296,3147,6,Mixed Namkeen 400g,Snacks,3,12000
+30297,3148,6,Mixed Namkeen 400g,Snacks,3,12000
+30298,3148,5,Cold Pressed Oil 1L,Staples,2,32000
+30299,3148,8,Dark Chocolate 100g,Snacks,1,15000
+30300,3149,8,Dark Chocolate 100g,Snacks,2,15000
+30301,3149,1,Masala Chai 250g,Beverages,3,18000
+30302,3150,7,Ragi Cookies 200g,Snacks,3,9500
+30303,3150,10,Cotton Towel,Home,2,39900
+30304,3150,5,Cold Pressed Oil 1L,Staples,3,32000

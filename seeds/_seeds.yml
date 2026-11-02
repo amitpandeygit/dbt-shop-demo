@@ -1,0 +1,9 @@
+version: 2
+
+seeds:
+  - name: city_region
+    description: A small fixed list that maps each city to its state and region. Kept in the repo as a CSV.
+    columns:
+      - name: city
+        description: City in lower case, to match stg_customers.city.
+        data_tests: [unique, not_null]

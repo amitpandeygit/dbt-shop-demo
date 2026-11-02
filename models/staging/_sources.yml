@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: shop
+    description: Raw tables copied from the shop's app database by the loader script. dbt only reads them.
+    schema: raw
+    tables:
+      - name: customers
+        description: One row per customer, as the app stores it. Email and city are messy.
+      - name: orders
+        description: One row per order. Status can be upper or lower case.
+      - name: order_items
+        description: One row per product line in an order. Prices are in paise.
+      - name: payments
+        description: One row per payment. An order can be paid in two parts (UPI plus wallet).

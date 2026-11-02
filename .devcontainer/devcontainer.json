@@ -1,0 +1,14 @@
+{
+  "name": "dbt shop demo",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install -r requirements.txt && python scripts/load_raw.py",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": { "label": "dbt docs", "onAutoForward": "openBrowser" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["mechatroner.rainbow-csv"]
+    }
+  }
+}

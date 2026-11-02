@@ -1,0 +1,60 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: One clean row per customer. Email and city are trimmed and in lower case.
+    columns:
+      - name: customer_id
+        description: The customer's id in the shop app. The key of this table.
+        data_tests:
+          - unique
+          - not_null
+      - name: email
+        description: Email in lower case with no spaces around it.
+        data_tests:
+          - not_null
+      - name: city
+        description: City in lower case. Used to look up the region in the city_region seed.
+
+  - name: stg_orders
+    description: One clean row per order. Status is in lower case.
+    columns:
+      - name: order_id
+        description: The order's id. The key of this table.
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: Who placed the order. Must be a real customer.
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+      - name: status
+        description: "{{ doc('order_status') }}"
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['placed', 'shipped', 'delivered', 'cancelled', 'returned']
+
+  - name: stg_order_items
+    description: One row per product line in an order, with money in rupees.
+    columns:
+      - name: order_item_id
+        data_tests: [unique, not_null]
+      - name: line_amount
+        description: quantity times unit price, in rupees.
+
+  - name: stg_payments
+    description: One row per payment, with money in rupees.
+    columns:
+      - name: payment_id
+        data_tests: [unique, not_null]
+      - name: payment_method
+        description: How the customer paid.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['upi', 'card', 'cod', 'wallet']

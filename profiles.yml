@@ -1,0 +1,10 @@
+# Where dbt connects. Here it is one DuckDB file in this folder, so nothing to install or pay for.
+# With BigQuery, Snowflake or Redshift only this file changes; the models stay the same.
+shop:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: shop.duckdb
+      schema: dev
+      threads: 4
