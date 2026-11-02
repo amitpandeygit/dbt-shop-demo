@@ -3,7 +3,13 @@ import nbformat as nbf
 nb = nbf.v4.new_notebook()
 C = []
 def md(s): C.append(nbf.v4.new_markdown_cell(s.strip()))
-def code(s): C.append(nbf.v4.new_code_cell(s.strip()))
+def code(s):
+    s = s.strip()
+    if "{{" in s and not s.startswith("%%"):
+        # In Colab, a line starting with ! treats {x} as a Python variable and breaks Jinja.
+        # A %%bash cell passes the text to the shell unchanged.
+        s = "%%bash\n" + "\n".join(l[1:] if l.startswith("!") else l for l in s.split("\n"))
+    C.append(nbf.v4.new_code_cell(s))
 
 md("""
 # dbt demo: from raw shop data to analytics tables
