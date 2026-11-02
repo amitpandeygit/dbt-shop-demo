@@ -1,16 +1,16 @@
 # dbt demo - shop analytics
 
 A small dbt project for learning how dbt turns raw warehouse data into clean tables for analysis.
-It uses DuckDB as the warehouse, so it runs in the browser with GitHub Codespaces. Nothing to install, no cloud account, no keys.
+It uses DuckDB as the warehouse, so it runs in the browser in Google Colab or GitHub Codespaces. Nothing to install, no cloud account, no keys.
 
 The business: a small online shop in India that sells groceries and home goods.
 Raw data: 300 customers, 2,000 orders (January to June 2026), their product lines and payments.
 
 ## Open it
 
-1. Click the green **Code** button, then the **Codespaces** tab, then **Create codespace on main**.
-2. Wait 2 to 3 minutes. The setup installs dbt and loads the raw data into `shop.duckdb`.
-3. In the terminal at the bottom, run `dbt build`.
+**Google Colab (easiest):** open [dbt_demo.ipynb in Colab](https://colab.research.google.com/github/amitpandeygit/dbt-shop-demo/blob/main/dbt_demo.ipynb) and run the cells from top to bottom. The notebook follows the session section by section.
+
+**GitHub Codespaces:** click the green **Code** button, then the **Codespaces** tab, then **Create codespace on main**. Wait 2 to 3 minutes while it installs dbt and loads the raw data, then run `dbt build` in the terminal.
 
 ## The flow
 
